@@ -101,11 +101,11 @@ class _NewItemState extends State<NewItem> {
                             child: Row(
                               children: [
                                 Container(
-                                  width: 16,
-                                  height: 16,
+                                  width: 15,
+                                  height: 15,
                                   color: category.value.color,
                                 ),
-                                const SizedBox(width: 6),
+                                const SizedBox(width: 7),
                                 Text(category.value.title),
                               ],
                             ),
